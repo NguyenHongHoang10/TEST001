@@ -25,7 +25,7 @@ void Bird::update() {
     velocity += GRAVITY;
     y += static_cast<int>(velocity);
     if (y < 0) y = 0;
-    if (y + BIRD_HEIGHT > SCREEN_HEIGHT - GROUND_HEIGHT) y = SCREEN_HEIGHT - GROUND_HEIGHT - BIRD_HEIGHT;
+    if (y + BIRD_HEIGHT > SCREEN_HEIGHT - GROUND_HEIGHT) y = SCREEN_HEIGHT - GROUND_HEIGHT - BIRD_HEIGHT + 15;
     angle = -velocity * 5;  // Xoay chim dựa trên vận tốc
 }
 
@@ -35,7 +35,7 @@ void Bird::render() {
 }
 
 SDL_Rect Bird::getRect() {
-    return {x, y, BIRD_WIDTH, BIRD_HEIGHT};
+    return {x, y, 48, 48};
 }
 
 void Bird::setPosition(int newX, int newY) {

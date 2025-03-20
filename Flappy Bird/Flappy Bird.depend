@@ -472,7 +472,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1742413203 source:d:\001_study\dev game\flappy bird\bird.cpp
+1742477555 source:d:\001_study\dev game\flappy bird\bird.cpp
 	"Bird.h"
 	"Constants.h"
 	"Utils.h"
@@ -481,30 +481,34 @@
 	<SDL.h>
 	<SDL_mixer.h>
 
-1742460627 d:\001_study\dev game\flappy bird\constants.h
+1742484079 d:\001_study\dev game\flappy bird\constants.h
 	<string>
 
-1742445044 source:d:\001_study\dev game\flappy bird\pipe.cpp
+1742483358 source:d:\001_study\dev game\flappy bird\pipe.cpp
 	"Pipe.h"
-	"Constants.h"
-	"Utils.h"
 	<cstdlib>
 
-1742414335 d:\001_study\dev game\flappy bird\pipe.h
+1742463869 d:\001_study\dev game\flappy bird\pipe.h
 	<SDL.h>
+	<SDL_image.h>
 	<SDL_mixer.h>
+	<iostream>
+	"Constants.h"
+	"Utils.h"
 
-1742447848 source:d:\001_study\dev game\flappy bird\gamemanager.cpp
+1742484493 source:d:\001_study\dev game\flappy bird\gamemanager.cpp
 	"GameManager.h"
 	"Constants.h"
 	"Utils.h"
 	<cmath>
 
-1742447822 d:\001_study\dev game\flappy bird\gamemanager.h
+1742482524 d:\001_study\dev game\flappy bird\gamemanager.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
 	<SDL_ttf.h>
+	<sstream>
+	<fstream>
 	<vector>
 	"Bird.h"
 	"Pipe.h"
